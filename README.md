@@ -12,7 +12,7 @@ Use Case:
 Usage:
 - Add all folders manually
 - Host the php files on a server
-- Update the server IP/Port in the URL's in the Android Project
+- Update the server IP/Port in the URL's in the Android Project under MainActivity.java
 - Install the Android App on a phone.
 - Retrive the OTP on via getMobileOTP.php
 
