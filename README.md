@@ -3,9 +3,6 @@ PHP Code and Android App to retrive SMS OTP's
 
 - Rename the php files AKA remove the "-June2023" from the PHP filenames.
 
-- Run otpcopy.sh with nohup 
-- Command: nohup ./optcopy.sh &
-
 Use Case:
 - To retrive OTP's from a phone via a URL and consome the URL for automated scanners/internal use etc.
 
@@ -14,5 +11,7 @@ Usage:
 - Host the php files on a server
 - Update the server IP/Port in the URL's in the Android Project under MainActivity.java
 - Install the Android App on a phone.
-- Retrive the OTP on via getMobileOTP.php
+- Retrive the OTP via getMobileOTP.php
+
+  Example: http://192.168.1.2:8888/POCMobileOTP/getMobileOTP.php?sow=1234567&mobile=87654321
 
