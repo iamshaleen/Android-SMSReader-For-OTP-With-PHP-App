@@ -14,5 +14,5 @@ Usage:
 - Update the phone numbers in the PHP code as well as under MainActivity.java
 - Build the Android Studio Project and install the Android App on a phone.
 - Retrive the OTP via getMobileOTP.php.<br>
-  Example: http://192.168.1.2:8888/POCMobileOTP/getMobileOTP.php?sow=1234567&mobile=87654321
+  Example: http://192.168.1.2:8888/POCMobileOTP/getMobileOTP.php?sow=1234567&mobile=98765432
 
