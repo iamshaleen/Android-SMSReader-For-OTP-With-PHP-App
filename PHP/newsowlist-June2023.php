@@ -24,11 +24,13 @@ function saveJSONData($file_path, $json_data) {
     file_put_contents($file_path, $json_content);
 }
 
-// Function to check if a SOW number already exists in the JSON data
-function isSOWNumberExists($json_data, $sow_number, $selection) {
+// Function to check if a SOW number already exists in the JSON data with same sender
+function isSOWNumberExists($json_data, $sow_number, $selection, $sender) {
     foreach ($json_data as $entry) {
-        if ($entry["sow_number"] === $sow_number) {
-            return true;
+        if ($entry["sow_number"] === $sow_number){ 
+            if($entry["sender"] === $sender){
+                return true;    
+            }   
         }
     }
     return false;
@@ -100,8 +102,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         $json_data = loadJSONData($file_path);
 
         // Check if SOW number already exists with the same selection
-        if (isSOWNumberExists($json_data, $sow_number, $selection)) {
-            $errors[] = "SOW Number already exists with the same selection";
+        if (isSOWNumberExists($json_data, $sow_number, $selection, $sender)) {
+            $errors[] = "SOW Number already exists with the same selection/sender";
         }
 
         // Check if sender already exists
