@@ -1,6 +1,6 @@
 <?php
 
-    if(isset($_POST['sow']) && isset($_POST['otpmessage']) && !($_POST['sow']==null) && !($_POST['otpmessage']==null) && preg_match("/^[0-9]+$/", $_POST['sow']) && isset($_POST['mobile']) && ($_POST['mobile']=='12345678' || $_POST['mobile']=='87654321')) //check sow 
+    if(isset($_POST['sow']) && isset($_POST['otpmessage']) && !($_POST['sow']==null) && !($_POST['otpmessage']==null) && preg_match("/^[0-9]+$/", $_POST['sow']) && isset($_POST['mobile']) && ($_POST['mobile']=='98765432' || $_POST['mobile']=='87654321')) //check sow 
     {
         $sow = $_POST['sow'];
         $otpmessage = $_POST['otpmessage'];
