@@ -21,6 +21,7 @@ For Android Project v2:
 - Update the phone numbers in the PHP code (all 3 files) as well as under SmsProcessor.java
 - Build the Android Studio Project and install the Android App on a phone.
   
+OTP Retrieval:
 - Retrive the OTP via getMobileOTP.php.<br>
-  Example: http://192.168.1.215:8888/POCMobileOTP/getMobileOTP.php?sow=1234567&mobile=98765432
+- Example: http://192.168.1.215:8888/POCMobileOTP/getMobileOTP.php?sow=1234567&mobile=98765432
 
