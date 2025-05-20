@@ -1,7 +1,7 @@
 # SMSReader for Readeing SMS OTP's and sending to server to be accessed via php
 PHP Code and Android App to retrive SMS OTP's
 
-- Rename the php files AKA remove the "-June2023" from the PHP filenames.
+- Rename the php files AKA remove the "-June2023/May2025" from the PHP filenames.
 
 Use Case:
 - To retrive OTP's from a phone via a URL and consome the URL for automated scanners/internal use etc.
