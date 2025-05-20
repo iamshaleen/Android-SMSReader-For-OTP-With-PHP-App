@@ -16,7 +16,7 @@ Usage:
 - Update the phone numbers in the PHP code (all 3 files) as well as under MainActivity.java
 - Build the Android Studio Project and install the Android App on a phone.
 
-- For Android Project v1:
+- For Android Project v2:
 - Update the server IP/Port in the URL's in the Android Project under SmsProcessor.java
 - Update the phone numbers in the PHP code (all 3 files) as well as under SmsProcessor.java
 - Build the Android Studio Project and install the Android App on a phone.
