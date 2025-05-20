@@ -1,6 +1,6 @@
 <?php
     $otp_array = array();
-    if(isset($_GET['sow']) && preg_match("/^[0-9]+$/", $_GET['sow']) && isset($_GET['mobile']) && ($_GET['mobile']=='12345678' || $_GET['mobile']=='98765432')) //check sow and phone number
+    if(isset($_GET['sow']) && preg_match("/^[0-9]+$/", $_GET['sow']) && isset($_GET['mobile']) && ($_GET['mobile']=='87654321' || $_GET['mobile']=='98765432')) //check sow and phone number
     {
         $sow = $_GET['sow'];
             $mobile = $_GET['mobile'];
